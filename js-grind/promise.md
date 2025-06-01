@@ -151,3 +151,5 @@ doSomething()
 
 Promises are always asynchronous in their behavior, even if the computation inside them is synchronous.
 You cannot "turn them into" synchronous constructs.
+
+when you use .then(), no matter what you return (even undefined, null, or nothing at all), it always wraps the result in a Promise.
