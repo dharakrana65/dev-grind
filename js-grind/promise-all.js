@@ -65,3 +65,14 @@
 // }).catch((err) => {
 //   console.log("final error", err)
 // })
+
+
+/**
+ * output :
+ * []
+ */
+// Promise.all([]).then((res) => {
+//   console.log(res)
+// }).catch((err) => {
+//   console.log("error from reject:", err)
+// })
